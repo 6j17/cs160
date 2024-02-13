@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's move</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <h1> LET'S MOVE </h1>
+        <div class="input-group">
+            <label for="distance">Distance to travel (miles):</label>
+            <input type="number" id="distance" name="distance">
+        </div>
+        <div class="input-group">
+            <label for="transport">Choose transportation:</label>
+            <select id="transport" name="transport">
+                <option value="walking">Walking (3.1 MPH)</option>
+                <option value="boostedMiniS">Boosted Mini S Board (18 MPH)</option>
+                <option value="evolveBambooGTR">Evolve Bamboo GTR 2in1 (24 MPH)</option>
+                <option value="oneWheelXR">OneWheel XR (19 MPH)</option>
+                <option value="swagtronSwagger5">Swagtron Swagger 5 Elite (18 MPH)</option>
+                <option value="segwayNinebotS">Segway Ninebot S (10 MPH)</option>
+                <option value="segwayNinebotSPlus">Segway Ninebot S-PLUS (12 MPH)</option>
+                <option value="razorScooter">Razor Scooter (18 MPH)</option>
+                <option value="geoBlade500">GeoBlade 500 (15 MPH)</option>
+                <option value="unagiE500">Unagi E500 (16 MPH)</option>
+            </select>
+        </div>
+        <button onclick="calculateTime()">Calculate</button>
+        <div id="result"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

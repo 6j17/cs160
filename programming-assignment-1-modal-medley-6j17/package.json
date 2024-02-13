@@ -1,0 +1,12 @@
+{
+  "name": "transportation-conversion-app",
+  "version": "1.0.0",
+  "description": "A simple app to convert distances to travel times for various modes of personal transportation.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
